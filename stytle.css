@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./asset/beans.jpg");
+  font-family: sans-serif;
+  /* padding: 10%; */
+  
+}
+
+.menu {
+  max-width: 500px;
+  min-height: 550px;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #deb887;
+  text-align: center;
+}
+.line{
+    border: 2px solid brown;
+    margin: 20px;
+}
+h1{
+    font-size: 40px;
+}
+h1, h2{
+    font-family:  Impact;
+    /* font-weight: bolder; */
+}
+
+.established{
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.category h2{
+    font-size: 30px ;
+}
+.category p{
+    display: inline-block;
+    font-size: 1.25rem;
+    margin: 4px 0;
+}
+.item{
+    width: 72%;
+    text-align: start;
+}
+.price{
+    width: 25%;
+    text-align: end;
+}
+
+a{
+    color: black;
+}
+.address{
+    margin-top: 10px;
+}
